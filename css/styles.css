@@ -3,6 +3,7 @@
     --color-secondary-1: hsl(223, 100%, 88%);
     --color-secondary-2: hsl(223, 60%, 83%);
     --color-secondary-3: hsl(354, 100%, 66%);
+    --color-secondary-4: hsl(223, 100%, 71%);
     --color-neutral_1: hsl(0, 0%, 59%);
     --color-neutral_2: hsl(209, 33%, 12%);
     --color-neutral-3: hsl(0, 0%, 100%);
@@ -238,8 +239,17 @@ html {
         height: calc(56rem/16);
     }
 
+    .subscribe__button:hover {
+        background-color:var(--color-secondary-4);
+        cursor: pointer;
+    }
+
     .subscribe__img {
         max-width: calc(637rem/16);
+    }
+
+    .footer__social-media-icon {
+        cursor: pointer;
     }
 
     .footer__copywrite {
