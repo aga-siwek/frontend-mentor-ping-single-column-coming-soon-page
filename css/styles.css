@@ -69,7 +69,7 @@ html {
 .subscribe__content {
     display: flex;
     flex-direction: column;
-    gap: calc(15rem/16);
+    gap: calc(14rem/16);
 }
 
 .subscribe__img {
@@ -204,6 +204,10 @@ html {
 
     .subscribe {
         gap: calc(88rem/16);
+    }
+
+    .subscribe__content {
+        gap: calc(16rem/16);
     }
 
     .subscribe__error {
