@@ -74,6 +74,7 @@ html {
 
 .subscribe__img {
     max-width: 100%;
+    display: block;
 }
 
 .subscribe__header-text {
