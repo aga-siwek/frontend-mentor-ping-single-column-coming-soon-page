@@ -30,7 +30,7 @@ html {
 .conteiner {
     display: flex;
     flex-direction: column;
-    padding: 81.5px 27px 37px 28px;
+    padding: 83px 27px 37px 28px;
     justify-content: space-between;
     min-height: 100vh;
     text-align: center;
