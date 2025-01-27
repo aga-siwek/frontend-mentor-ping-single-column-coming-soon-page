@@ -4,6 +4,7 @@
     --color-secondary-2: hsl(223, 60%, 83%);
     --color-secondary-3: hsl(354, 100%, 66%);
     --color-secondary-4: hsl(223, 100%, 71%);
+    --color-secondary-5:  hsl(223, 87%, 63%, 15%);
     --color-neutral_1: hsl(0, 0%, 59%);
     --color-neutral_2: hsl(209, 33%, 12%);
     --color-neutral-3: hsl(0, 0%, 100%);
@@ -167,6 +168,23 @@ html {
     justify-items: center;
 }
 
+.footer__social-media-icon{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    color: var(--color-neutral-3);
+    outline: 1px solid var(--color-secondary-5);
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__social-media-icon-svg{
+    fill: var(--color-primary);
+    padding: 5px;
+ }
+
+
+
 .footer__copywrite {
     font-size: calc(10rem/16);
     font-weight: 300;
@@ -250,6 +268,12 @@ html {
 
     .footer__social-media-icon {
         cursor: pointer;
+    }
+
+    .footer__social-media-icon-svg:hover{
+        fill: var(--color-neutral-3);
+        background-color: var(--color-primary);
+        border-radius: 50%;
     }
 
     .footer__copywrite {
