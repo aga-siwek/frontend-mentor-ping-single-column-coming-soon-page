@@ -30,7 +30,7 @@ html {
 .conteiner {
     display: flex;
     flex-direction: column;
-    padding: 81px 27px 37px 28px;
+    padding: 81.5px 27px 37px 28px;
     justify-content: space-between;
     min-height: 100vh;
     text-align: center;
@@ -180,7 +180,7 @@ html {
 
 .footer__social-media-icon-svg{
     fill: var(--color-primary);
-    padding: 5px;
+    padding: 7px;
  }
 
 
